@@ -1,10 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <h2>Home page</h2>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus exercitationem rem, consectetur officiis porro, impedit dicta dolores repellat et sequi labore molestias dolorem obcaecati magni odio, ad amet sapiente eligendi!
-    </p>
-</div>
+
+    <div class="container">
+        <div class="row">
+            @foreach ($comics as $comic )
+            <div class="col">
+                {{$comic['title']}}
+            </div>
+            @endforeach
+        </div>
+    </div>
 @endsection
