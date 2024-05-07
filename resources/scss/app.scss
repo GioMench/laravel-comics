@@ -1,1 +1,8 @@
 @import '~bootstrap/scss/bootstrap';
+
+$color-accent: #0282f9;
+$color-primary:#1c1c1c;
+
+.navbarblue{
+    background-color:$color-accent;
+}
