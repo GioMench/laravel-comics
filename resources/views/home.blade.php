@@ -1,7 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-
+     <div class="jumbotron">
+    
+     </div>
     <div class="container container_card">
         <div class="row row-cols-6 g-5 my-0">
             @foreach ($comics as $comic)
