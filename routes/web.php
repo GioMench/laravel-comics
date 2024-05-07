@@ -18,3 +18,7 @@ Route::get('/', function () {
     $comics = config('db.comics');
     return view('home', compact('comics'));
 });
+
+Route::get('/characters', function () {
+    return view('characters');
+})->name('characters');
