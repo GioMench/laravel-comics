@@ -1,0 +1,9 @@
+@use './variables' as *;
+
+.jumbotron{
+    height: 400px;
+    background-image: url("/resources/img/jumbotron.jpg");
+    background-size: cover;
+    
+    
+}

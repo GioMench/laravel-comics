@@ -1,0 +1,10 @@
+@use './variables' as *;
+
+main {
+    background-color: $color-primary;
+}
+
+.bar_shop{
+    background-color: $color-accent;
+    
+}

@@ -2,10 +2,10 @@
 
 main {
     background-color: $color-primary;
-    padding-bottom: 50px;
 }
 
 .card {
+
     img:hover {
         border-radius: 30%;
     }
@@ -13,10 +13,3 @@ main {
     
 }
 
-.jumbotron{
-    height: 350px;
-    background-image: url("/resources/img/jumbotron.jpg");
-    background-size: cover;
-    
-    
-}
