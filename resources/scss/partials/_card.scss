@@ -1,7 +1,14 @@
-@use './variables'as *;
+@use './variables' as *;
 
-main{
+main {
     background-color: $color-primary;
-   padding-bottom: 60px;
+    padding-bottom: 50px;
 }
 
+.card {
+    img:hover {
+        border-radius: 30%;
+    }
+    background-color: $color-primary;
+    
+}

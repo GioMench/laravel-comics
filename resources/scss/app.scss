@@ -1,11 +1,18 @@
 @use './partials/variables'as *;
 @use '~bootstrap/scss/bootstrap';
 @use './partials/card';
+@use './partials/header';
 
 
 
-.navbarblue{
-    background-color:$color-accent;
-}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+body {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
 
 

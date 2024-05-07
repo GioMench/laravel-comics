@@ -9,7 +9,7 @@
                 <div class="card" style="height:200px;border: none">
                     <img src="{{$comic['thumb']}}" class="card-img-top" alt="..." style="height: 100%; width: 100%;">
                     <div class="card-body" class="margin-bottom: 100px">
-                        <h6 class="card-title text-white text-uppercase">{{$comic['title']}}</h6>
+                        <h6 class="card-title text-white text-uppercase fw-semibold">{{$comic['title']}}</h6>
                     </div>
                 </div>
             </div>

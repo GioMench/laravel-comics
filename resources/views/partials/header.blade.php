@@ -23,7 +23,7 @@
                 <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt=""  class="p-3" style="height: 120px" >
             
             <div>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-semibold">
                     <li class="nav-item">
                         <a class="nav-link active text-uppercase" aria-current="page" href="#">charcters</a>
                     </li>
