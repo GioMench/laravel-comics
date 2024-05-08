@@ -12,15 +12,17 @@
     <!--section-card-->
     <section class="container container_card" style="margin-bottom: 40px;">
         <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6 g-5 my-0">
-            @foreach ($comics as $comic)
+            @foreach ($comics as $index => $comic)
                 <div class="col p-3 my-5">
-                    <div class="card" style="height:200px;border: none">
-                        <img src="{{ $comic['thumb'] }}" class="card-img-top" alt="..."
-                            style="height: 100%; width: 100%;">
-                        <div class="card-body">
-                            <h6 class="card-title text-white text-uppercase fw-semibold">{{ $comic['title'] }}</h6>
+                    <a href="{{ route('comic', ['id'=> $index]) }}">
+                        <div class="card" style="height:200px;border: none">
+                            <img src="{{ $comic['thumb'] }}" class="card-img-top" alt="..."
+                                style="height: 100%; width: 100%;">
+                            <div class="card-body">
+                                <h6 class="card-title text-white text-uppercase fw-semibold">{{ $comic['title'] }}</h6>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             @endforeach
         </div>
