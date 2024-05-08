@@ -77,7 +77,7 @@
             <div>
 
                 <img src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt=""
-                    style="width: 550px; height: 100%; margin-top: -40px">
+                    style="width: 600px; height: 100%; margin-top: -50px">
             </div>
         </div>
 
