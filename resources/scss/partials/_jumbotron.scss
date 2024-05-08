@@ -4,6 +4,10 @@
     height: 400px;
     background-image: url("/resources/img/jumbotron.jpg");
     background-size: cover;
-    
-    
+    position: relative;
+    .container-sm{
+        position: absolute;
+        top: 380px;
+        left: 15%;
+    }
 }
