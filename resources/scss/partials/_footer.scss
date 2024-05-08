@@ -1,9 +1,14 @@
 @use './variables' as *;
 
 .footer_bg{
-   
+   height: 400px;
     background-image: url("/resources/img/footer-bg.jpg");
     background-size: cover;
+    overflow: hidden;
+    li, .cookies{
+        font-size: 15px;
+    }
     
+     
     
 }
