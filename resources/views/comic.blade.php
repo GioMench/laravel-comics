@@ -1,6 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
+<section class="jumbotron">
+    <div class="container-sm ">
+        <a name="" id="" class="btn btn-primary px-4 text-uppercase fw-bold" href="#" role="button"
+            style="border-radius: 0;font-size:20px">{{$comic['title']}}</a>
+    </div>
+
+</section>
     <section class="container text-white d-flex justify-content-around p-5">
         <div>
             <img src="{{ $comic['thumb'] }}" class="card-img-top" alt="..." style="height: 450px; width: 350px;">
