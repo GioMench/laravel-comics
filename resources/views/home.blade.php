@@ -25,7 +25,7 @@
     <!--section-bar-shop-->
     <section class="container-fluid bar_shop">
         <div class="container ">
-            <ul class="list-unstyled d-flex align-items-center justify-content-between p-4">
+            <ul class="list-unstyled d-flex align-items-center justify-content-between p-4 m-0">
                 <li class="text-uppercase text-white fw-light"> <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt=""  class="p-3" style="height: 80px" >digital comics</li>
                 <li class="text-uppercase text-white fw-light"> <img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}" alt=""  class="p-3" style="height: 80px" >dc merchandise</li>
                 <li class="text-uppercase text-white fw-light"> <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}" alt=""  class="p-3" style="height: 80px" >subscription</li>
