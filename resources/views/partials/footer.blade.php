@@ -1,5 +1,6 @@
 <footer>
-    <section class="container-fluid footer_bg">
+    <!--footer-section-more-links-->
+    <section class="container-fluid footer_bg_img">
         <div class="container d-flex justify-content-between">
             <div>
                 <div class="text-light d-flex" style="padding-top: 50px">
@@ -75,9 +76,27 @@
 
             <div>
 
-                <img src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="" style="width: 550px; height: 100%; margin-top: -40px">
+                <img src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt=""
+                    style="width: 550px; height: 100%; margin-top: -40px">
             </div>
         </div>
 
+    </section>
+    <!--footer-section-sing-up-->
+    <section class="footer_bg">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a name="" id="" class="btn btn-outline-primary text-white text-uppercase px-3" href="#" role="button" style="border-radius: 0px;font-size:15px;">sing-up-now!</a>
+            <div class="d-flex align-items-center" >
+                <h5 class="text-primary text-uppercase fw-bolder px-2 m-0">
+                    follow us
+                </h5>
+                <img class="py-4 px-2" src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="">
+                <img class="py-4 px-2" src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt="">
+                <img class="py-4 px-2" src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt="">
+                <img class="py-4 px-2" src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt="">
+                <img class="py-4 px-2" src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt="">
+            </div>
+
+        </div>
     </section>
 </footer>
