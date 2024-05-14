@@ -23,7 +23,7 @@ Route::get('/characters', function () {
     return view('characters');
 })->name('characters');
 
-Route::get('/{id}', function ($id) {
+Route::get('/comic/{id}', function ($id) {
     abort_unless($id >= 0 && $id < count(config('db.comics')),404);
     $comic = config('db.comics')[$id];
     return view('comic',compact('comic'));
